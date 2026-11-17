@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Streamlit local credentials / cache
+.streamlit/secrets.toml
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Data files (keep clean parquet under 5MB for fast GitHub push and Streamlit Cloud deployment)
+data/*.csv
